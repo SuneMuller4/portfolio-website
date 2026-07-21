@@ -123,29 +123,42 @@ body {
     color: #555;
 
 }
-.cv-button {
 
-    display: inline-block;
+/* ============================
+   Education Section
+============================ */
 
-    margin-top: 20px;
+.education {
+    margin-top: 100px;
+}
 
-    background-color: #1E3A8A;
+.education-card {
 
-    color: white;
-
-    text-decoration: none;
-
-    padding: 15px 35px;
-
-    border-radius: 50px;
-
-    font-weight: 600;
-
-    transition: 0.3s;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    max-width: 800px;
 
 }
-.cv-button:hover {
 
-    background-color: #2948a5;
+.education-card h3 {
+
+    color: #1E3A8A;
+    margin-bottom: 10px;
+
+}
+
+.institution {
+
+    font-weight: bold;
+    margin-bottom: 8px;
+
+}
+
+.date {
+
+    color: gray;
+    margin-bottom: 20px;
 
 }
