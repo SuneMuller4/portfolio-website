@@ -314,3 +314,62 @@ body {
     margin-bottom: 10px;
 
 }
+
+/* ============================
+   Leadership & Achievements
+============================ */
+
+.leadership {
+    margin-top: 100px;
+}
+
+.leadership-grid {
+    display: grid;
+    gap: 30px;
+}
+
+.leadership-card {
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+
+    transition: all 0.3s ease;
+
+}
+
+.leadership-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+
+}
+
+.leadership-card h3 {
+
+    color: #1E3A8A;
+
+    margin-bottom: 20px;
+
+}
+
+.leadership-card ul {
+
+    padding-left: 20px;
+
+}
+
+.leadership-card li {
+
+    margin-bottom: 12px;
+
+    line-height: 1.7;
+
+    color: #555;
+
+}
