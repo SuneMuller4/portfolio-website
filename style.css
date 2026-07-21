@@ -123,7 +123,47 @@ body {
     color: #555;
 
 }
+/* ============================
+   Download CV Button
+============================ */
 
+.cv-download {
+
+    margin-top: 40px;
+
+}
+
+.cv-download a {
+
+    display: block;
+
+    width: 220px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    background-color: white;
+
+    color: #1E3A8A;
+
+    padding: 15px;
+
+    border-radius: 50px;
+
+    font-weight: 600;
+
+    transition: all 0.3s ease;
+
+}
+
+.cv-download a:hover {
+
+    background-color: #dbe7ff;
+
+    transform: translateY(-3px);
+
+}
 /* ============================
    Education Section
 ============================ */
