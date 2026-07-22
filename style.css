@@ -165,12 +165,86 @@ body {
 
 }
 /* ============================
+   Section Spacing
+============================ */
+
+.content section {
+    margin-bottom: 70px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.content section:last-child {
+    border-bottom: none;
+}
+/* ============================
+   Hobbies & Interests
+============================ */
+
+.about-subheading{
+
+    margin-top:40px;
+
+    margin-bottom:20px;
+
+    color:#1E3A8A;
+
+    font-size:1.5rem;
+
+}
+
+.about-subheading i{
+
+    margin-right:10px;
+
+}
+
+.hobbies{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+}
+
+.hobbies span{
+
+    background:#eef3ff;
+
+    color:#1E3A8A;
+
+    padding:12px 20px;
+
+    border-radius:30px;
+
+    font-weight:600;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    transition:all 0.3s ease;
+
+}
+
+.hobbies span:hover{
+
+    background:#1E3A8A;
+
+    color:white;
+
+    transform:translateY(-3px);
+
+}
+/* ============================
    Education Section
 ============================ */
 
-.education {
-    margin-top: 100px;
-}
+
 
 .education-card {
 
@@ -213,11 +287,6 @@ body {
    Technical Skills
 ============================ */
 
-.skills {
-
-    margin-top: 100px;
-
-}
 .skills-grid {
 
     display: grid;
@@ -280,26 +349,11 @@ body {
     font-weight: 600;
 
 }
-/* ============================
-   Section Spacing
-============================ */
 
-.content section {
-    margin-bottom: 120px;
-    padding-bottom: 40px;
-    border-bottom: 1px solid #e6e6e6;
-}
-
-.content section:last-child {
-    border-bottom: none;
-}
 /* ============================
    Projects Section
 ============================ */
 
-.projects {
-    margin-top: 100px;
-}
 
 .project-card {
 
@@ -359,9 +413,6 @@ body {
    Leadership & Achievements
 ============================ */
 
-.leadership {
-    margin-top: 100px;
-}
 
 .leadership-grid {
     display: grid;
@@ -411,5 +462,225 @@ body {
     line-height: 1.7;
 
     color: #555;
+
+}
+
+/* ============================
+   Certifications
+============================ */
+
+
+.certification-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 30px;
+
+}
+
+.certification-card {
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+
+    transition: all 0.3s ease;
+
+} 
+
+.certification-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+
+}
+
+.certification-card h3 {
+
+    color: #1E3A8A;
+
+    margin-bottom: 12px;
+
+}
+
+.certificate-provider {
+
+    color: #666;
+
+    margin-bottom: 25px;
+
+}
+
+.certificate-button {
+
+    display: inline-block;
+
+    text-decoration: none;
+
+    background-color: #1E3A8A;
+
+    color: white;
+
+    padding: 12px 24px;
+
+    border-radius: 30px;
+
+    font-weight: 600;
+
+    transition: all 0.3s ease;
+
+}
+
+.certificate-button:hover {
+
+    background-color: #16306f;
+
+    transform: translateY(-2px);
+
+}
+/* ============================
+   Technical Interests
+============================ */
+
+.interests {
+
+    margin-top: 100px;
+
+}
+
+.interests-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+    gap: 25px;
+
+}
+
+.interest-card {
+
+    background: white;
+
+    padding: 35px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+
+    transition: all 0.3s ease;
+
+}
+.interest-card i {
+
+    font-size: 1rem;
+
+    color: #1E3A8A;
+
+    margin-bottom: 15px;
+
+}
+.interest-card p {
+
+    font-size: 1.1rem;
+
+    font-weight: 600;
+
+    color: #333;
+
+}
+.interest-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+
+}
+/* ============================
+   Additional Information
+============================ */
+
+.additional-info{
+
+    margin-top:100px;
+
+}
+
+.additional-card{
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+
+    transition:0.3s;
+
+}
+
+.additional-card:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 15px 35px rgba(0,0,0,0.12);
+
+}
+
+.info-item{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:20px;
+
+    margin-bottom:30px;
+
+}
+
+.info-item:last-child{
+
+    margin-bottom:0;
+
+}
+
+.info-item i{
+
+    font-size:1.8rem;
+
+    color:#1E3A8A;
+
+    margin-top:5px;
+
+    width:35px;
+
+    text-align:center;
+
+}
+
+.info-item h3{
+
+    color:#1E3A8A;
+
+    margin-bottom:6px;
+
+}
+
+.info-item p{
+
+    color:#555;
+
+    line-height:1.7;
 
 }
