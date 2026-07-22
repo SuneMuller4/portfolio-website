@@ -1062,6 +1062,7 @@ body {
 ============================ */
 
 @media (max-width: 768px){
+    /* Layout */
 
     .container{
 
@@ -1111,6 +1112,7 @@ body {
         height:140px;
 
     }
+    /* Sidebar */
     .sidebar h1{
         
 
@@ -1119,8 +1121,57 @@ body {
     }
     .content{
         
-
         margin-top: 20px;
+
+    }
+    /* Certifications */
+    .skills-grid{
+        grid-template-columns: 1fr;
+
+    }
+    .coursework{
+        grid-column: auto;
+
+    }
+    .certification-grid{
+        grid-template-columns: 1fr;
+
+    }
+    /* Education */
+    .timeline{
+        padding-left:40px;
+
+    }
+    .timeline::before{
+        left:10px;
+
+    }
+    .timeline-year{
+    
+        position:static;
+
+        width:auto;
+
+        text-align:left;
+
+        margin-bottom:10px;
+
+    }
+    .timeline-dot{
+        left:-39px;
+
+    }
+    .course-tags{
+        justify-content:center;
+
+    }
+    .course-tags span{
+
+       text-align:center;
+
+    }
+    .skill-tags{
+        justify-content:center;
 
     }
 
