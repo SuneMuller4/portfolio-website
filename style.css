@@ -684,3 +684,108 @@ body {
     line-height:1.7;
 
 }
+/* ============================
+   Contact
+============================ */
+
+.contact {
+
+    margin-top: 100px;
+
+}
+
+.contact-card {
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+
+    transition: all 0.3s ease;
+
+}
+
+.contact-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+
+}
+
+.contact-item {
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 20px;
+
+    margin-bottom: 30px;
+
+}
+
+.contact-item:last-child {
+
+    margin-bottom: 0;
+
+}
+
+.contact-item i {
+
+    font-size: 1.8rem;
+
+    color: #1E3A8A;
+
+    width: 35px;
+
+    text-align: center;
+
+}
+
+.contact-item h3 {
+
+    color: #1E3A8A;
+
+    margin-bottom: 6px;
+
+}
+
+.contact-item a {
+
+    text-decoration: none;
+
+    color: #555;
+
+    transition: 0.3s;
+
+}
+
+.contact-item a:hover {
+
+    color: #1E3A8A;
+
+}
+
+.contact-item p {
+
+    color: #555;
+
+}
+
+.contact-message {
+
+    margin-top: 40px;
+
+    text-align: center;
+
+    font-style: italic;
+
+    color: #666;
+
+    line-height: 1.8;
+
+}
