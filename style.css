@@ -1057,3 +1057,71 @@ body {
     line-height: 1.8;
 
 }
+/* ============================
+   Responsive Design
+============================ */
+
+@media (max-width: 768px){
+
+    .container{
+
+        flex-direction: column;
+
+    }
+
+    .sidebar{
+
+        position: relative;
+
+        width: 100%;
+
+        height: auto;
+
+    }
+
+    .profile-header{
+        
+
+        flex-direction: column;
+
+        text-align: center;
+
+        gap: 15px;
+
+    }  
+    .profile-text{
+        
+
+        padding-left:0;
+
+    } 
+
+    .content{
+
+        margin-left: 0;
+
+        width: 100%;
+
+        padding: 40px 25px;
+
+    }
+    .profile-image{
+        width:140px;
+
+        height:140px;
+
+    }
+    .sidebar h1{
+        
+
+        font-size:2.2rem;
+
+    }
+    .content{
+        
+
+        margin-top: 20px;
+
+    }
+
+}
