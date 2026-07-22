@@ -173,6 +173,17 @@ body {
     align-items: center;
 
 }
+.sidebar-divider-bottom{
+
+    width: 90%;
+
+    border: none;
+
+    border-top: 1px solid rgba(255,255,255,0.25);
+
+    margin: 1px 0 15px;
+
+}
 /* ============================
    Download CV Button
 ============================ */
@@ -1174,5 +1185,50 @@ body {
         justify-content:center;
 
     }
+
+}
+
+/* ============================
+   Back to Top Button
+============================ */
+
+#backToTop{
+
+    position: fixed;
+
+    bottom: 30px;
+
+    right: 30px;
+
+    width: 55px;
+
+    height: 55px;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background-color: #1E3A8A;
+
+    color: white;
+
+    font-size: 1.3rem;
+
+    cursor: pointer;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+
+    transition: all 0.3s ease;
+
+    display: none;
+
+    z-index: 1000;
+
+}
+#backToTop:hover{
+
+    background-color: #16306f;
+
+    transform: translateY(-4px);
 
 }
