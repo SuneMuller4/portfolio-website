@@ -17,33 +17,65 @@
 <body>
 
    
-      <div class="container">
+    <div class="container">
 
         <aside class="sidebar">
-             <img src="images/profile.jpg.jpeg" alt="Profile Picture" class="profile-image">
-             <h1>Sune Muller</h1>
-             <p class="job-title">
-                BSc Information Technology Student
-             </p>
+            <div class="profile-header">
+                
+                <img src="images/profile.jpg.jpeg" alt="Profile Picture" class="profile-image">
+                <div class="profile-text">
+                    <h1>Sune Muller</h1>
+                    <p class="job-title">
+                      BSc Information Technology Student
+                    </p>
 
-             <div class="social-links">
+                </div>
+            </div>
+            
+            
+            <hr class="sidebar-divider">
 
-             <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
 
-             <a href="#"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            <div class="sidebar-middle">
+                <nav class="sidebar-nav">
+                    <a href="#about">About Me</a>
+                    <a href="#education">Education</a>
+                    <a href="#skills">Technical Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#leadership">Leadership</a>
+                    <a href="#certifications">Certifications</a>
+                    <a href="#interests">Technical Interests</a>
+                    <a href="#additional">Additional Information</a>
+                    <a href="#contact">Contact</a>
+
+                </nav>
+                
 
             </div>
-            <div class="cv-download">
-                <a href="files/Sune_Muller_CV.pdf" download>
-                    <i class="fa-solid fa-download"></i> Download CV
-                </a>
+            <div class="sidebar-bottom">
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
 
+                </div>
+                <div class="cv-download">
+                    <a href="files/Sune_Muller_CV.pdf" download>
+                        <i class="fa-solid fa-download"></i> Download CV
+                    </a>
+
+                </div>
             </div>
+
+            
+            
+                
+
+            
 
         </aside>
 
         <main class="content">
-            <section class="about">
+            <section id="about" class="about">
                 <h2><i class="fa-solid fa-user"></i> About Me</h2>
                 <p>I am a motivated and goal-oriented third-year Bachelor of Science 
                     in Information Technology student at North-West University. I am
@@ -81,7 +113,7 @@
             
             </section>
             
-            <section class="education">
+            <section id="education" class="education">
 
                 <h2><i class="fa-solid fa-graduation-cap"></i> Education</h2>
                 <div class="timeline">
@@ -153,7 +185,7 @@
                 
             </section>
 
-            <section class="leadership">
+            <section id="leadership" class="leadership">
 
                 <h2><i class="fa-solid fa-trophy"></i> Leadership & Achievements</h2>
                  <div class="leadership-grid">
@@ -185,7 +217,7 @@
             </section>
 
 
-            <section class="skills"> 
+            <section id="skills" class="skills"> 
                 <h2><i class="fa-solid fa-laptop-code"></i> Technical Skills</h2>
 
                 <div class="skills-grid"> 
@@ -250,7 +282,7 @@
                 
             </section>
 
-            <section class="projects">
+            <section id="projects" class="projects">
                 <h2><i class="fa-solid fa-diagram-project"></i> Projects</h2>
                 <div class="project-card">
                     <h3>Vacation Work / Internship</h3>
@@ -278,7 +310,7 @@
 
 
 
-            <section class="certifications">
+            <section id="certifications" class="certifications">
                 <h2><i class="fa-solid fa-certificate"></i> Certifications</h2>
                 <div class="certification-grid">
                     <div class="certification-card">
@@ -304,7 +336,7 @@
 
             </section>
 
-            <section class="interests">
+            <section id="interests" class="interests">
                 <h2><i class="fa-solid fa-lightbulb"></i> Technical Interests</h2>
                 <div class="interests-grid">
                     
@@ -320,7 +352,7 @@
 
             </section>
 
-            <section class="additional-info">
+            <section id="additional" class="additional-info">
                 <h2>
                     <i class="fa-solid fa-circle-info"></i> Additional Information
 
@@ -352,7 +384,7 @@
 
             </section>
 
-            <section class="contact">
+            <section id="contact" class="contact">
                 <h2>
                     <i class="fa-solid fa-envelope"></i> Contact
                 </h2>

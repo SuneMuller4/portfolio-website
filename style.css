@@ -31,8 +31,8 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding-top: 80px;
-    padding: 40px;
+    
+    padding: 25px;
 }
 .content {
     margin-left: 30%;
@@ -44,7 +44,7 @@ body {
     color: white;
     font-size: 2.5rem;
     margin-top: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
 }
 .profile-image {
     width: 180px;
@@ -56,7 +56,7 @@ body {
 
     border: 5px solid white;
 
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 .social-links {
     display: flex;
@@ -94,9 +94,42 @@ body {
 
     text-align: center;
 
-    margin-bottom: 40px;
+    margin-bottom: 5px;
 
     line-height: 1.6;
+}
+.profile-header{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+
+}
+.profile-text {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+    text-align: center;
+    padding-left: 15px;
+
+    flex: 1;
+
+}
+.sidebar-divider {
+
+    width: 90%;
+
+    border: none;
+
+    border-top: 1px solid rgba(255,255,255,0.25);
+
+    margin: 25px 0 5px;
+
 }
 .content h2 {
 
@@ -121,6 +154,23 @@ body {
     margin-bottom: 25px;
 
     color: #555;
+
+}
+.sidebar-middle{
+
+    flex:1;
+
+    width:100%;
+
+}
+
+.sidebar-bottom{
+
+    width:100%;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 /* ============================
@@ -176,6 +226,44 @@ body {
 
 .content section:last-child {
     border-bottom: none;
+}
+/* ============================
+   Sidebar Navigation
+============================ */
+
+.sidebar-nav{
+
+    display:flex;
+
+    flex-direction:column;
+    align-items: center;
+
+    margin:5px 0 20px;
+    width: 100%;
+
+}
+
+.sidebar-nav a{
+
+    text-decoration:none;
+
+    color:white;
+
+    padding:5px 0;
+
+    font-weight:500;
+    font-size: 0.95rem;
+
+    transition:0.3s;
+
+}
+
+.sidebar-nav a:hover{
+
+    color:#dbeafe;
+
+    transform:translateX(8px);
+
 }
 /* ============================
    Hobbies & Interests
